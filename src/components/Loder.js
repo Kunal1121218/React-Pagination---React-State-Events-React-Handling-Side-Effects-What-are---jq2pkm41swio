@@ -1,9 +1,11 @@
-import React from 'react'
+import React from "react";
 
-const Loader = () => {
+function Loader() {
   return (
-    <div className='loader'></div>
-  )
+    <div className="loader" id="loader">
+      loading
+    </div>
+  );
 }
 
-export default Loader
+export default Loader;
